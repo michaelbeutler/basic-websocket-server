@@ -1,0 +1,18 @@
+{
+  "name": "basic-websocket-server",
+  "version": "0.1",
+  "description": "basic setup for websocket server with client manager",
+  "main": "index.js",
+  "repository": "https://github.com/MichiBeutler/basic-websocket-server.git",
+  "author": "MichiBeutler",
+  "license": "MIT",
+  "dependencies": {
+    "http": "^0.0.0",
+    "moment": "^2.24.0",
+    "websocket": "^1.0.30"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  }
+}
